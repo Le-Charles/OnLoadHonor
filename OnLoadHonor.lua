@@ -24,14 +24,6 @@ function RpDecay()
 	local decay = rankpoints*.2
 	local delta = rankpoints-decay
 	
-	if delta > 2500 then
-		decay = 2500
-	elseif delta < 0 then
-		decay = delta/2
-	else
-		decay = decay
-	end
-	
 	return decay 
 end
 

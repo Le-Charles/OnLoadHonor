@@ -38,7 +38,7 @@ function HonorInfo()
 	DEFAULT_CHAT_FRAME:AddMessage("Greetings " .. name .. ".",0,.6,1)
 	DEFAULT_CHAT_FRAME:AddMessage("You are |cffffffff"..round(progress*100,2).."%|r through rank |cffffffff"..rank..".|r",0,.6,1)
 	DEFAULT_CHAT_FRAME:AddMessage("You have |cffffffff"..round(rankpoints,0).."|r ranking points and will lose |cffffffff"..round(decay,0).."|r to decay.",0,.6,1)
-	DEFAULT_CHAT_FRAME:AddMessage("You will need to gain |cffffffff"..round(tonext,0).."|r ranking points for your next rank.  Happy hunting.",0,.6,1)
+	DEFAULT_CHAT_FRAME:AddMessage("You will need to gain |cffffffff"..round(tonext,0).."|r ranking points for your next rank.",0,.6,1)
 end
 
 function round(num, numDecimalPlaces)

@@ -1,0 +1,7 @@
+## Interface: 11303
+## Author: LeCharles
+## Version: v1.0
+## DefaultState: Enabled
+## LoadOnDemand: 0
+
+OnLoadHonor.lua
